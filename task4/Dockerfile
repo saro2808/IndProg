@@ -16,4 +16,4 @@ ADD /picture-vr /picture-vr
 
 WORKDIR /picture-vr/source/imitator
 
-CMD ["./run.sh"]
+ENTRYPOINT ["./vr"]
