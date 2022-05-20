@@ -35,9 +35,9 @@ add_executable(hello_test
 include(GoogleTest)
 gtest_discover_tests(hello_test)
 
-target_link_libraries(vr
-	server_lib)
+#target_link_libraries(vr
+#	server_lib)
 
 target_link_libraries(hello_test
-	server_lib
+	#server_lib
 	gtest_main gtest)

@@ -2,9 +2,8 @@
 
 #include <vector>
 
-
 #include "TreeLeaves.h"
-#include "../server/server.h"
+//#include "../server/server.h"
 
 class Imitator {
 private:
